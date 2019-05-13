@@ -14,16 +14,16 @@ html, body {
     border-radius: 8px;
     color: white;
     background-color: black;
-    padding: 16px;
+    padding: 8px;
     margin: 4px;
     display: inline-block;
-    width: 8rem;
+    width: 2rem;
     text-align: center;
-    font-size: 8rem;
+    font-size: 2rem;
 }
 
 .countdown_divider {
-    font-size: 8rem;
+    font-size: 2rem;
     display: inline-block;
     font-family: digital;
 }
@@ -32,7 +32,7 @@ html, body {
     background-color: white;
     border: 8px solid red;
     border-radius: 16px;
-    padding: 32px;
+    padding: 16px;
 }
 
 .countdown_container {
@@ -45,7 +45,35 @@ html, body {
 
 .banner {
     color: white;
-    font-size: 4rem;
-    border-bottom: 4px solid red;
+    font-size: 2rem;
+    border-bottom: 2px solid red;
+    text-align: center;
 }
 
+@media screen and (min-width: 700px) {
+    .countdown_cell {
+        font-family: digital;
+        border-radius: 8px;
+        color: white;
+        background-color: black;
+        padding: 16px;
+        margin: 4px;
+        display: inline-block;
+        width: 8rem;
+        text-align: center;
+        font-size: 8rem;
+    }
+    
+    .countdown_divider {
+        font-size: 8rem;
+        display: inline-block;
+        font-family: digital;
+    }
+
+    .banner {
+        color: white;
+        font-size: 4rem;
+        border-bottom: 4px solid red;
+        text-align: center;
+    }
+}
