@@ -1,0 +1,51 @@
+@font-face {
+    font-family: digital;
+    src: url('./digital-7.ttf');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.countdown_cell {
+    font-family: digital;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    padding: 16px;
+    margin: 4px;
+    display: inline-block;
+    width: 8rem;
+    text-align: center;
+    font-size: 8rem;
+}
+
+.countdown_divider {
+    font-size: 8rem;
+    display: inline-block;
+    font-family: digital;
+}
+
+.countdown_display {
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.countdown_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+}
+
+.banner {
+    color: white;
+    font-size: 4rem;
+    border-bottom: 4px solid red;
+}
+
